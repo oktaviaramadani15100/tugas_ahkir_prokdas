@@ -13,6 +13,10 @@
     font-weight: bolder;
     display: flex;
     margin-left: 155px;
+    background-image: url();
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .head{
