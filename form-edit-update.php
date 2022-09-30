@@ -2,7 +2,7 @@
  include 'koneksi.php';
 
  $nomer = $_GET['nomer'];
- $sql = "SELECT * FROM dashboard WHERE nomer='$nomer'";
+ $sql = "SELECT * FROM berita_update WHERE nomer='$nomer'";
  $query = mysqli_query($connect, $sql);
  $pel = mysqli_fetch_assoc($query);
 
@@ -10,7 +10,6 @@
     die ("data tidak ditemukan");
  }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +24,11 @@
         <header>Edit Berita</header>
         <ul>
             <li><a href="dashboard.php">Beranda</a></li>
-            <li><a href=""></a>Berita Update</li>
+            <li><a href="update.php">Berita Update</a></li>
         </ul>
     </div>
     <div class="container-2">
-        <form action="edit-berita.php" method="POST">
+        <form action="edit-update.php" method="POST">
             <div class="tambah-berita">
                 <h3>Tambah Berita</h3>
             </div>
@@ -52,6 +51,10 @@
             <div class="data">
                 <label>Tanggal Kejadian</label>
                 <input value="<?php echo $pel ['tanggal_kejadian']?>" required="required" type="text" name="tanggal_kejadian">
+            </div>
+            <div class="data">
+                <label>Tanggal Update</label>
+                <input value="<?php echo $pel ['tanggal_update']?>" required="required" type="text" name="tanggal_update">
             </div>
             <div class="simpan-berita">
                 <input type="submit" name="simpan" value="simpan">

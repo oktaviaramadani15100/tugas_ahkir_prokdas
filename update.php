@@ -21,7 +21,7 @@
 
     <div class="container-2">
         <h1>DATA ONE LIPUTAN</h1>
-        <h3><a href="tambah_berita.html">CREATE</a></h3>
+        <h3><a href="tambah_update.html">CREATE</a></h3>
         <table border="2" cellpadding="10" cellspacing="0">
             <tr class="judul">
                 <th>Nomer</th>
@@ -29,11 +29,12 @@
                 <th>Berita</th>
                 <th>Tempat Kejadian</th>
                 <th>Tanggal Kejadian</th>
+                <th>Tanggal Update</th>
                 <th>Action</th>
             </tr>
             <tr>
                 <?php
-                    $sql="SELECT * FROM dashboard";
+                    $sql="SELECT * FROM berita_update";
                     $query= mysqli_query($connect, $sql);
                     while($pel=mysqli_fetch_array($query)){
                         echo"
@@ -43,9 +44,10 @@
                                 <td>$pel[berita]</td>
                                 <td>$pel[tempat_kejadian]</td>
                                 <td>$pel[tanggal_kejadian]</td>
+                                <td>$pel[tanggal_update]</td>
                                 <td>
-                                <a href='form-edit-berita.php?nomer=".$pel['nomer']."'><button class='merah'>Edit</button></a>
-                                <a href='delete.php?nomer=".$pel['nomer']."'><button class='hijau'>Hapus</button></a>
+                                <a href='form-edit-update.php?nomer=".$pel['nomer']."'><button class='merah'>Edit</button></a>
+                                <a href='delete-update.php?nomer=".$pel['nomer']."'><button class='hijau'>Hapus</button></a>
                                 </td>
                             </tr>";
                     };
