@@ -77,6 +77,22 @@ body{
     border-radius: 10px;
     background-color: #eaeaea;
 }
+.gambarr label{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.gambarr input{
+    background-color: #eaeaea;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+    border-radius:10px;
+    width: 70px;
+    height:30px;
+    margin: 5px;
+
+}
 .simpan-berita input{
     display: flex;
     justify-content: center;

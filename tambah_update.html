@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container-1">
+            <header>ONE LIPUTAN</header>
+            <ul>
+                <li><a href="dashboard.php">Beranda</a></li>
+                <li><a href="update.php">Berita Update</a></li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <form action="simpan-update.php" method="POST">
+                <div class="tambah-berita">
+                    <h3>Update Berita</h3>
+                </div>
+                <div class="data">
+                    <label>Nomer</label>
+                    <input  required="required" type="text" name="nomer">
+                </div>
+                <div class="gambarr">
+                    <label>Gambar</label>
+                    <input type="file" name="gambar">
+                </div>
+                <div class="data">
+                    <label>Berita</label>
+                    <input  required="required" type="text" name="berita">
+                </div>
+                <div class="data">
+                    <label>Tempat Kejadian</label>
+                    <input  required="required" type="text" name="tempat_kejadian">
+                </div>
+                <div class="data">
+                    <label>Tanggal Kejadian</label>
+                    <input  required="required" type="text" name="tanggal_kejadian">
+                </div>
+                <div class="data">
+                    <label>Tanggal Update</label>
+                    <input  required="required" type="text" name="tanggal_update">
+                </div>
+                <div class="simpan-berita">
+                    <input type="submit" name="simpan" value="simpan">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
