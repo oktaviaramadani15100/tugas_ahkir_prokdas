@@ -18,13 +18,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+     <!-- icon -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font google -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container-1">
-        <header>Edit Berita</header>
+        <header> <i class="fa-brands fa-firefox-browser"></i> ONE <p>LIPUTAN</p> </header>
+        
         <ul>
-            <li><a href="dashboard.php">Beranda</a></li>
-            <li><a href="update.php">Berita Update</a></li>
+            <p> <a href="dashboard.php"></a> <i class="fa-solid fa-house"></i>Beranda</p>
+           <p> <a href="update.php"></a> <i class="fa-solid fa-square-pen"></i>Berita Update</p> 
         </ul>
     </div>
     <div class="container-2">
@@ -35,10 +46,10 @@
             <div class="data">
                 <label>Nomer</label>
                 <input value="<?php echo $pel ['nomer']?>" required="required" type="text" name="nomer">
-            </div>
-            <div class="gambarr">
+            
+            <div class="data">
                 <label>Gambar</label>
-                <input value="<?php echo $pel ['gambar']?>" type="file" name="gambar">
+               <i><input value="<?php echo $pel ['gambar']?>" type="file" name="gambar"></i> 
             </div>
             <div class="data">
                 <label>Berita</label>
@@ -56,6 +67,7 @@
                 <label>Tanggal Update</label>
                 <input value="<?php echo $pel ['tanggal_update']?>" required="required" type="text" name="tanggal_update">
             </div>
+        </div>
             <div class="simpan-berita">
                 <input type="submit" name="simpan" value="simpan">
             </div>

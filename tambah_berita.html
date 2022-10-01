@@ -22,8 +22,8 @@
         <header> <i class="fa-brands fa-firefox-browser"></i> ONE <p>LIPUTAN</p> </header>
         
         <ul>
-            <p><i class="fa-solid fa-house"></i>Beranda</p>
-           <p><i class="fa-solid fa-square-pen"></i>Berita Update</p> 
+            <p> <a href="dashboard.php"></a> <i class="fa-solid fa-house"></i>Beranda</p>
+           <p> <a href="update.php"></a> <i class="fa-solid fa-square-pen"></i>Berita Update</p> 
         </ul>
     </div>
     <div class="container-2">
@@ -32,29 +32,31 @@
                 <h3>Tambah Berita</h3>
             </div>
             <div class="data">
-                <label>Nomer</label>
+               <label>Nomer :</label>
                 <input  required="required" type="text" name="nomer">
-            </div>
-            <div class="gambarr">
-                <label>Gambar</label>
+            
+            <div class="data">
+                <label>Gambar :</label>
                 <input type="file" name="gambar">
             </div>
             <div class="data">
-                <label>Berita</label>
+                <label>Berita :</label>
                 <input  required="required" type="text" name="berita">
             </div>
             <div class="data">
-                <label>Tempat Kejadian</label>
+                <label>Tempat Kejadian :</label>
                 <input  required="required" type="text" name="tempat_kejadian">
             </div>
             <div class="data">
-                <label>Tanggal Kejadian</label>
+                <label>Tanggal Kejadian :</label>
                 <input  required="required" type="text" name="tanggal_kejadian">
             </div>
+        </div>
             <div class="simpan-berita">
                 <input type="submit" name="simpan" value="simpan">
             </div>
-        </form>
+        
+    </form>
     </div>
 </body>
 </html>

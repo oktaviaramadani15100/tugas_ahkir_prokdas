@@ -9,6 +9,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* side bar */
 .container-1{
     box-sizing: border-box;
     position: absolute;
@@ -57,98 +58,130 @@ ul p:hover i{
     padding-left: 50px;
     transition: .500s;
 }
+/* input data */
 .container-2{
     box-sizing: border-box;
     position: absolute;
-    margin-left: 32%;
-    padding-top: 125px;
+    margin-left: 28%;
+    padding-top: 150px;
+}
+.container-2 h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
 }
 .container-2 h3 a{
    display: block;
-   width: 15%;
-   height: 30px;
+   width: 13%;
+   height: 23px;
    text-align: center;
    padding: 6px;
-   border-radius: 10px;
+   padding-top: 9px;
+   border-radius: 20px;
    background-color: #74B9FF;
    color: black;
+   font-size: 17px;
+   font-weight: 400;
+   box-shadow: 2px 3px 4px rgba(0 , 0, 0, 0.2);    
 }
+
+
  .judul{
     background-color: #74B9FF;
 }
 .container-2 table{
     margin-top: 10px;
     border: 1px solid black;
+    
 }
 .container-2 tr th{
     padding: 5px;
     margin: 10px;
 }
 .tambah-berita{
-    margin-top: 10px;
+    margin-top: 17px;
     margin-left: 20px;
+    font-size: 22px;
 }
+.tambah-berita h3{
+    margin-bottom: 35px;
+    margin-left: -20px;
+}
+
 .data{
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
+
+
 .data input{
-    justify-content: center;
-    display: flex;
-    width: 400%;
-    height: 30px;
+    width: 440px;
+    height: 28px;
+    margin-left: 90px;
+    margin-bottom: 10px;
     border-radius: 10px;
     background-color: #eaeaea;
-}
-.gambarr label{
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.gambarr input{
-    background-color: #eaeaea;
-    margin-bottom: 20px;
     border: none;
+    box-shadow: 2px 2px 3px rgba(0 , 0, 0, 0.2);
+    float: right;
     text-align: center;
-    border-radius:10px;
-    width: 70px;
-    height:30px;
+    
+}
+
+
+
+.gambarr input{
+    border: none;
+    width: 89px;
     margin: 5px;
+    float: right;
+    margin-right: 42%;
+    margin-bottom: 9px;
 
 }
+
+.data i input{
+    width: 89px;
+    margin-right: 53%;
+   
+    display: flexbox;
+    
+}
+
+
 .simpan-berita input{
     display: flex;
     justify-content: center;
     background-color: #74B9FF;
     border: none;
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    margin: 20px;
+    border-radius: 15px;
+    width: 95px;
+    height: 31px;
+    margin: 30px;
+    font-size: 16px;
+    margin-left: 60%;
+    box-shadow: 2px 2px 5px rgba(0 , 0, 0, 0.2);
+    
 }
 table td{
     justify-content: center;
     text-align: center;
     padding: 5px;
+    height: 45px;
 }
-table {
-    text-align: center;
+table th{
+    height: 45px;
 }
 
-table tr td:last-child{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
 
 table tr td a button{
     text-align: center;
     background-color: green;
     border: none;
-    border-radius:10px;
+    border-radius:20px;
     width: 70px;
     height:30px;
     margin: 5px;
+    box-shadow: 3px 3px 3px rgba(0 , 0, 0, 0.2);
 }
 
 table tr td a:last-child button{
