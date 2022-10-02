@@ -56,8 +56,8 @@
                 <input value="<?php echo $pel ['berita']?>" required="required" type="text" name="berita">
             </div>
             <div class="data">
-                <label>Tempat Kejadian</label>
-                <input value="<?php echo $pel ['tempat_kejadian']?>" required="required" type="text" name="tempat_kejadian">
+                <label>Isi Berita</label>
+              <textarea  name="isi"><?php echo $pel['isi']?></textarea>
             </div>
             <div class="data">
                 <label>Tanggal Kejadian</label>

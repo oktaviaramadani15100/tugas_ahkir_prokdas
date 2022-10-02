@@ -5,10 +5,11 @@
         $nomer =$_POST['nomer'];
         $gambar =$_POST['gambar'];
         $berita =$_POST['berita'];
+        $isi=$_POST['isi'];
         $tempat_kejadian =$_POST['tempat_kejadian'];
         $tanggal_kejadian =$_POST['tanggal_kejadian'];
 
-        $sql = "UPDATE `berita_update` SET `nomer`='$nomer',`gambar`='$gambar',`berita`='$berita',`tempat_kejadian`='$tempat_kejadian',`tanggal_kejadian`='$tanggal_kejadian',`tanggal_update`='$tanggal_update' WHERE nomer='$nomer'";
+        $sql = "UPDATE `berita_update` SET `nomer`='$nomer',`gambar`='$gambar',`berita`='$berita',`isi`='$isi',`tanggal_kejadian`='$tanggal_kejadian',`tanggal_update`='$tanggal_update' WHERE nomer='$nomer'";
 
         $query = mysqli_query($connect, $sql);
 

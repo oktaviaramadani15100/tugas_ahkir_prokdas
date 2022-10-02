@@ -27,7 +27,7 @@
         </ul>
     </div>
         <div class="container-2">
-            <form action="simpan-update.php" method="POST">
+            <form action="simpan-update.php" method="POST" enctype="multipart/form-data">
                 <div class="tambah-berita">
                     <h3>Update Berita</h3>
                 </div>
@@ -37,17 +37,17 @@
                 
                 <div class="data"> 
                     <label>Gambar :</label>
-                   <i><input type="file" name="gambar"></i> 
+                    <i><input type="file" name="gambar"></i> 
                 </div>
                 <div class="data">
                     <label>Berita :</label>
                     <input  required="required" type="text" name="berita">
                 </div>
                 <div class="data">
-                    <label>Tempat Kejadian :</label>
-                    <input  required="required" type="text" name="tempat_kejadian">
+                    <label>Isi berita :</label>
+                   <textarea required="required" name="isi"></textarea>
                 </div>
-                <div class="data">
+                <div class="data" >
                     <label>Tanggal Kejadian :</label>
                     <input  required="required" type="text" name="tanggal_kejadian">
                 </div>

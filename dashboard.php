@@ -25,8 +25,8 @@
         <header> <i class="fa-brands fa-firefox-browser"></i> ONE <p>LIPUTAN</p> </header>
         
         <ul>
-            <p> <a href="dashboard.php"></a> <i class="fa-solid fa-house"></i>Beranda</p>
-           <p> <a href="update.php"></a> <i class="fa-solid fa-square-pen"></i>Berita Update</p> 
+            <p><i class="fa-solid fa-house"></i> <a href="dashboard.php">Beranda</a></p>
+           <p><i class="fa-solid fa-square-pen"></i> <a href="update.php">Berita Update</a> </p> 
         </ul>
     </div>
 
@@ -38,7 +38,7 @@
                 <th>Nomer</th>
                 <th>Gambar</th>
                 <th>Berita</th>
-                <th>Tempat Kejadian</th>
+                <th>Isi berita</th>
                 <th>Tanggal Kejadian</th>
                 <th>Action</th>
             </tr>

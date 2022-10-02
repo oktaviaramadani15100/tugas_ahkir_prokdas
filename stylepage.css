@@ -1,19 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: quicksand, sans-serif;
-}
-
-@font-face {
-    font-family: quicksand;
-    src: url(assets/quicksand-v30-latin-regular.woff);
+    font-family: 'Inter', sans-serif;
 }
 
 .header{
     font-weight: bolder;
     display: flex;
     margin-left: 155px;
-    background-image: url();
+    background-image: url(assets/logo.png);
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: left;
@@ -27,19 +22,23 @@
 
 .one{
     color: #A51919;
+    margin-left: 50px;
+    margin-top: 3px;
 }
 
 .lplogo{
     color: #2F3542;
     margin-left: 7px;
+    margin-top: 3px;
 }
 
 .navbar{
-    margin-top: 7px;
+    margin-top: 10px;
+    margin-left: 51px;
 }
 
 .navbar a{
-    margin-left: 157px;
+    margin-left: 105px;
     text-decoration: none;
     color: #2F3542;
     font-weight: bold;
@@ -56,7 +55,7 @@
 }
 
 .cardmain{
-    background-image: url(assets/img/foto1.png);
+    background-image: url(assets/foto1.png);
     width: 650px;
     height: 470px;
     background-position: center;
@@ -130,6 +129,8 @@ td img{
 
 .trending{
     margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .trendimg img{
@@ -139,7 +140,7 @@ td img{
     box-shadow: 0 0 5px black;
 }
 
-.trendarticles td{
+.trendarticles {
     padding-top: 10px;
     font-size: 17px;
 }
@@ -164,4 +165,61 @@ td img{
     margin-left: 154px;
     border: 2px solid #C0C0C0;
     margin-top: 24px;
+}
+
+.hr4{
+    margin-left: 154px;
+    border: 2px solid #C0C0C0;
+    margin-top: 24px;
+}
+
+.footer{
+    background-color: #B6B6B6;
+    padding-top: 300px;
+    margin-top: 65px;
+}
+
+.text-footer h2{
+    margin-left: 12%;
+    margin-top: -20%;
+    font-size: 30px;
+}
+
+.text-footer2{
+    margin-left: 50%;
+    margin-top: -260px;
+}
+
+.text-footer3{
+    margin-left: 65%;
+   margin-top: -203px;
+}
+
+.text-footer4{
+    margin-left: 80%;
+    margin-top: -129px;
+}
+
+.part{
+    margin-left: 15%;
+    display: flex;
+}
+
+.bawah-footer{
+    background-color: #f8f8f8;
+    margin-top: 97px;
+}
+
+.bawah-footer h5{
+    margin-left: 1100px;
+}
+
+.one2{
+    color: #A51919;
+    margin-left: 5px;
+}
+
+.liputan{
+    color: #183258;
+    margin-left: 4px;
 }
