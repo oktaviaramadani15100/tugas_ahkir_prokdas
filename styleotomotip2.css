@@ -1,0 +1,83 @@
+.header{
+    font-weight: bolder;
+    display: flex;
+    margin-left: 155px;
+}
+
+.head{
+    background-color: #C0C0C0;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.one{
+    color: #A51919;
+}
+
+.lplogo{
+    color: #2F3542;
+    margin-left: 7px;
+}
+
+.navbar{
+    margin-top: 7px;
+}
+
+.navbar a{
+    margin-left: 157px;
+    text-decoration: none;
+    color: #2F3542;
+    font-weight: bold;
+}
+
+.otomotip2Judul h1{
+    text-align: center;
+    
+}
+.otomotip2Foto img{
+    width: 47%;
+    margin-left: 26%;
+    
+}
+.otomotip2Isi{
+   margin-left: 95px;
+   margin-right: 70px;
+}
+
+.footer{
+    background-color: #B6B6B6;
+    padding-top: 300px;
+}
+.text-footer h2{
+    margin-left: 12%;
+    margin-top: -20%;
+    font-size: 30px;
+}
+.text-footer2{
+    margin-left: 50%;
+    margin-top: -260px;
+}
+.text-footer3{
+    margin-left: 65%;
+   margin-top: -225px;
+}
+.text-footer4{
+    margin-left: 80%;
+    margin-top: -153px;
+}
+.part{
+    margin-left: 14%;
+}
+.bawah-footer{
+    background-color: #f8f8f8;
+    margin-top: 65px;
+}
+.bawah-footer h5{
+    margin-left: 1100px;
+}
+.one{
+    color: #A51919;
+}
+.liputan{
+    color: #183258;
+}
