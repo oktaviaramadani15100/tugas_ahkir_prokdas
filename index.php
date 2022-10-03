@@ -21,10 +21,10 @@ include 'koneksi.php';
             <h1 class="one">ONE</h1><h1 class="lplogo">LIPUTAN</h1>
         </div>
         <div class="navbar">
-            <a href="/home/page.html">HOME</a>
-            <a href="/berita_terkini/aksi_demo.html">BERITA TERKINI</a>
-            <a href="/sport/juventus.html">SPORT</a>
-            <a href="/otomotif/otomotip1.html">AUTOMOTIF</a>
+            <a href="index.php">HOME</a>
+            <a href="aksi_demo.html">BERITA TERKINI</a>
+            <a href="juventus.html">SPORT</a>
+            <a href="otomotip2.html">AUTOMOTIF</a>
         </div>
     </div>
     <div class="maincontainer">
@@ -43,14 +43,14 @@ include 'koneksi.php';
             <tr class="midimages1">
                 <td><img src="assets/foto2.jpg" alt=""></td>
                 <td class="marticle1">
-                   <a href="/berita_terkini/aksi_demo.html"><h2>Aksi  Demo Mahasiswa, Jalan Ke Istana Bogor Macet</h2></a>
+                   <a href="berita_terkini/aksi_demo.html"><h2>Aksi  Demo Mahasiswa, Jalan Ke Istana Bogor Macet</h2></a>
                     <h5>29 September 2022</h5>
                 </td>
             </tr>
             <tr class="midimages2">
                 <td><img src="assets/foto3.jpg" alt=""></td>
                 <td class="marticle1">
-                  <a href="/berita_terkini/riski_bilar.html"><h2>Pernikahan Rizky Bliar-Lesti Kejora Penuh Kontroversi, <br>
+                  <a href="berita_terkini/riski_bilar.html"><h2>Pernikahan Rizky Bliar-Lesti Kejora Penuh Kontroversi, <br>
                         Kini Ada Dugaan KDRT</h2></a>
                     <h5>29 September 2022</h5>
                 </td>
