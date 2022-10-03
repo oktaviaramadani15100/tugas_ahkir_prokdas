@@ -139,7 +139,7 @@ td img{
 }
 .trendimg a{
     margin-left: 20px;
-    
+    margin-top: 100px;
    
 }
 .trendimg img{
@@ -148,6 +148,7 @@ td img{
     border-radius: 20px;
     box-shadow: 0 0 5px black;
     margin-left: 20px;
+    margin-bottom: 40px;
     
     
 }
@@ -155,6 +156,12 @@ td img{
 .trendarticles {
     padding-top: 10px;
     font-size: 17px;
+}
+
+.trendimg a{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 150px;
 }
 
 .tdt2{
@@ -172,6 +179,7 @@ td img{
 .tda3{
     padding-left: 24px;
 }
+
 
 .hr3{
     margin-left: 154px;
@@ -215,7 +223,9 @@ td img{
 .part{
     margin-left: 15%;
     display: flex;
+    margin-bottom: 30px;
 }
+
 
 .bawah-footer{
     background-color: #f8f8f8;
