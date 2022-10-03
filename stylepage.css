@@ -107,6 +107,9 @@ td img{
 .midimages1 h5{
     margin-top: 5px;
 }
+.midimages1 img{
+    margin-bottom: 10px;
+}
 
 .marticle2{
     padding-left: 15px;
@@ -131,13 +134,22 @@ td img{
     margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+   
 }
-
+.trendimg a{
+    margin-left: 20px;
+    
+   
+}
 .trendimg img{
     width: 338px;
     height: 205px;
     border-radius: 20px;
     box-shadow: 0 0 5px black;
+    margin-left: 20px;
+    
+    
 }
 
 .trendarticles {
